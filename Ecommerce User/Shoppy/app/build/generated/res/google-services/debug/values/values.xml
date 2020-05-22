@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">539028589775-p3gf6mo0dannmo2p4gl1lk4s12r9aov6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://shoppy-7940d.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">539028589775</string>
+    <string name="google_api_key" translatable="false">AIzaSyBJAmjbjerQrU0DKXQSBjumEShBZEoCoKs</string>
+    <string name="google_app_id" translatable="false">1:539028589775:android:318ae004941f6ea7ca3bba</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBJAmjbjerQrU0DKXQSBjumEShBZEoCoKs</string>
+    <string name="google_storage_bucket" translatable="false">shoppy-7940d.appspot.com</string>
+    <string name="project_id" translatable="false">shoppy-7940d</string>
+</resources>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.gsonfire:gson-fire:1.8.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.gsonfire/gson-fire/1.8.2/2daf7408cb7908327216365c7b176335f222d053/gson-fire-1.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.gsonfire/gson-fire/1.8.2/d3d80d95939f0c1a9cbc8ceff11a9d1a8941b0ee/gson-fire-1.8.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.gsonfire/gson-fire/1.8.2/f90a29f3a191d5f9193b76f270c27ba39f23aa50/gson-fire-1.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

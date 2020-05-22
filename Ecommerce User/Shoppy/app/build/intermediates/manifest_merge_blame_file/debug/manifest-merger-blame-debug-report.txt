@@ -1,0 +1,434 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hackathon.shoppy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:10:5-67
+16-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:12:5-76
+18-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:12:22-73
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:13:5-80
+19-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:13:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:14:5-81
+20-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:15:5-81
+21-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="android.permission.SEND_SMS" />
+22-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:16:5-67
+22-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:16:22-64
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+23-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+24-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+30
+31    <application
+31-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:18:5-90:19
+32        android:allowBackup="true"
+32-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:19:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:20:9-43
+36        android:label="@string/app_name"
+36-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:21:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:22:9-54
+38        android:supportsRtl="true"
+38-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:23:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:24:9-40
+41        <activity android:name="com.hackathon.shoppy.CategoriesActivity" />
+41-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:25:9-65
+41-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:25:19-53
+42        <activity android:name="com.hackathon.shoppy.NetworkActivity" />
+42-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:26:9-53
+42-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:26:19-50
+43        <activity android:name="com.hackathon.shoppy.Orders.OrderDetailsActivity" />
+43-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:27:9-65
+43-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:27:19-62
+44        <activity
+44-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:28:9-30:59
+45            android:name="com.hackathon.shoppy.Settings.SettingsActivity"
+45-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:29:13-54
+46            android:theme="@style/AppTheme.NoActionBar" />
+46-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:30:13-56
+47        <activity android:name="com.hackathon.shoppy.Payment.BuyNowPaymentActivity" />
+47-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:31:9-67
+47-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:31:19-64
+48        <activity android:name="com.hackathon.shoppy.Payment.PaymentFailed" />
+48-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:32:9-59
+48-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:32:19-56
+49        <activity android:name="com.hackathon.shoppy.Payment.PaymentSuccess" />
+49-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:33:9-60
+49-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:33:19-57
+50        <!--
+51             The API key for Google Maps-based APIs is defined as a string resource.
+52             (See the file "res/values/google_maps_api.xml").
+53             Note that the API key is linked to the encryption key used to sign the APK.
+54             You need a different API key for each encryption key, including the release key that is used to
+55             sign the APK for publishing.
+56             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+57        -->
+58        <meta-data
+58-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:42:9-44:55
+59            android:name="com.google.android.geo.API_KEY"
+59-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:43:13-58
+60            android:value="@string/google_maps_key" />
+60-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:44:13-52
+61
+62        <activity
+62-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:46:9-48:59
+63            android:name="com.hackathon.shoppy.Settings.MapsActivity"
+63-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:47:13-50
+64            android:label="@string/title_activity_maps" />
+64-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:48:13-56
+65        <activity
+65-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:49:9-55:20
+66            android:name="com.hackathon.shoppy.NetworkCheck"
+66-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:50:13-41
+67            android:theme="@style/AppTheme.NoActionBar" >
+67-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:51:13-56
+68            <intent-filter>
+68-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:52:13-54:29
+69                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+69-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:53:17-79
+69-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:53:25-76
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:56:9-58:59
+73            android:name="com.hackathon.shoppy.ProductDescription"
+73-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:57:13-47
+74            android:theme="@style/AppTheme.NoActionBar" />
+74-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:58:13-56
+75        <activity
+75-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:59:9-61:59
+76            android:name="com.hackathon.shoppy.Payment.PaymentActivity"
+76-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:60:13-52
+77            android:theme="@style/AppTheme.NoActionBar" />
+77-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:61:13-56
+78        <activity
+78-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:62:9-64:59
+79            android:name="com.hackathon.shoppy.Login.Register"
+79-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:63:13-43
+80            android:theme="@style/AppTheme.NoActionBar" />
+80-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:64:13-56
+81        <activity
+81-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:65:9-67:59
+82            android:name="com.hackathon.shoppy.Login.Login"
+82-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:66:13-40
+83            android:theme="@style/AppTheme.NoActionBar" />
+83-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:67:13-56
+84        <activity
+84-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:68:9-76:20
+85            android:name="com.hackathon.shoppy.SplashScreen.SplashScreen"
+85-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:69:13-54
+86            android:theme="@style/AppTheme.NoActionBar" >
+86-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:70:13-56
+87            <intent-filter>
+87-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:71:13-75:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:72:17-69
+88-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:72:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:74:17-77
+90-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:74:27-74
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:77:9-79:59
+94            android:name="com.hackathon.shoppy.Intro.Introduction"
+94-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:78:13-47
+95            android:theme="@style/AppTheme.NoActionBar" />
+95-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:79:13-56
+96        <activity
+96-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:80:9-82:59
+97            android:name="com.hackathon.shoppy.home"
+97-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:81:13-33
+98            android:theme="@style/AppTheme.NoActionBar" />
+98-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:82:13-56
+99        <activity
+99-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:83:9-85:59
+100            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+100-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:84:13-76
+101            android:theme="@style/Base.Theme.AppCompat" />
+101-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:85:13-56
+102
+103        <meta-data
+103-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:87:9-89:55
+104            android:name="com.razorpay.ApiKey"
+104-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:88:13-47
+105            android:value="rzp_live_5rCdhSVeKyqMqc" />
+105-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:89:13-52
+106
+107        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+107-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:12:9-16:20
+107-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:12:19-63
+108            <intent-filter>
+108-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:13:13-15:29
+109                <action android:name="rzp.device_token.share" />
+109-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:14:17-65
+109-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:14:25-62
+110            </intent-filter>
+111        </receiver>
+112
+113        <activity
+113-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:18:9-29:20
+114            android:name="com.razorpay.CheckoutActivity"
+114-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:19:13-57
+115            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+115-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:20:13-83
+116            android:theme="@style/CheckoutTheme" >
+116-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:21:13-49
+117            <intent-filter>
+117-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:22:13-28:29
+118                <action android:name="android.intent.action.MAIN" />
+118-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:72:17-69
+118-->D:\UI Shoppy\ShoppyAdmin\app\src\main\AndroidManifest.xml:72:25-66
+119
+120                <data
+120-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:25:17-27:47
+121                    android:host="rzp.io"
+121-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:26:21-42
+122                    android:scheme="io.rzp" />
+122-->[com.razorpay:checkout:1.5.13] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\55e24b8c877a5c9a2981131e0b69d225\checkout-1.5.13\AndroidManifest.xml:27:21-44
+123            </intent-filter>
+124        </activity>
+125        <activity android:name="com.kabouzeid.appthemehelper.common.ATHToolbarActivity" />
+125-->[com.github.kabouzeid:app-theme-helper:1.3.10] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\3d7b7d4b82524380381a3f7bb0daaa7c\jetified-app-theme-helper-1.3.10\AndroidManifest.xml:12:9-91
+125-->[com.github.kabouzeid:app-theme-helper:1.3.10] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\3d7b7d4b82524380381a3f7bb0daaa7c\jetified-app-theme-helper-1.3.10\AndroidManifest.xml:12:19-88
+126        <activity android:name="com.kabouzeid.appthemehelper.ATHActivity" />
+126-->[com.github.kabouzeid:app-theme-helper:1.3.10] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\3d7b7d4b82524380381a3f7bb0daaa7c\jetified-app-theme-helper-1.3.10\AndroidManifest.xml:13:9-77
+126-->[com.github.kabouzeid:app-theme-helper:1.3.10] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\3d7b7d4b82524380381a3f7bb0daaa7c\jetified-app-theme-helper-1.3.10\AndroidManifest.xml:13:19-74
+127        <activity android:name="com.kabouzeid.appthemehelper.common.ATHActionBarActivity" />
+127-->[com.github.kabouzeid:app-theme-helper:1.3.10] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\3d7b7d4b82524380381a3f7bb0daaa7c\jetified-app-theme-helper-1.3.10\AndroidManifest.xml:14:9-93
+127-->[com.github.kabouzeid:app-theme-helper:1.3.10] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\3d7b7d4b82524380381a3f7bb0daaa7c\jetified-app-theme-helper-1.3.10\AndroidManifest.xml:14:19-90
+128        <activity
+128-->[com.karumi:dexter:4.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1510cb6f2f2c1e53ec825e2caab01984\jetified-dexter-4.2.0\AndroidManifest.xml:27:9-29:72
+129            android:name="com.karumi.dexter.DexterActivity"
+129-->[com.karumi:dexter:4.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1510cb6f2f2c1e53ec825e2caab01984\jetified-dexter-4.2.0\AndroidManifest.xml:28:13-60
+130            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+130-->[com.karumi:dexter:4.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1510cb6f2f2c1e53ec825e2caab01984\jetified-dexter-4.2.0\AndroidManifest.xml:29:13-69
+131
+132        <meta-data
+132-->[com.firebaseui:firebase-ui-database:1.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\05651bed5f2887be6cad24b79c26ff33\jetified-firebase-ui-database-1.2.0\AndroidManifest.xml:14:9-16:69
+133            android:name="com.google.android.gms.version"
+133-->[com.firebaseui:firebase-ui-database:1.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\05651bed5f2887be6cad24b79c26ff33\jetified-firebase-ui-database-1.2.0\AndroidManifest.xml:15:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.firebaseui:firebase-ui-database:1.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\05651bed5f2887be6cad24b79c26ff33\jetified-firebase-ui-database-1.2.0\AndroidManifest.xml:16:13-66
+135
+136        <service
+136-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
+137            android:name="com.google.firebase.components.ComponentDiscoveryService"
+137-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:31:13-84
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1e501aa5ebad65702db8b6c05548d82a\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+139            android:exported="false" >
+139-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:32:13-37
+140            <meta-data
+140-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+141                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+141-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-database:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+144                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+144-->[com.google.firebase:firebase-database:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-database:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+147                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+147-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+149            <meta-data
+149-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+150                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+150-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+153                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+153-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+155        </service>
+156
+157        <activity
+157-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+158            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+158-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+159            android:excludeFromRecents="true"
+159-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+160            android:exported="true"
+160-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+161            android:launchMode="singleTask"
+161-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+162            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+162-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+163            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+163-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+164
+165        <receiver
+165-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+166            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+166-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+167            android:enabled="true"
+167-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+168            android:exported="false" >
+168-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+169        </receiver>
+170        <receiver
+170-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+171            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+171-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+172            android:enabled="true"
+172-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+173            android:exported="true"
+173-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+174            android:permission="android.permission.INSTALL_PACKAGES" >
+174-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+175            <intent-filter>
+175-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+176                <action android:name="com.android.vending.INSTALL_REFERRER" />
+176-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+176-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+177            </intent-filter>
+178        </receiver>
+179
+180        <service
+180-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+181            android:name="com.google.android.gms.measurement.AppMeasurementService"
+181-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+182            android:enabled="true"
+182-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+183            android:exported="false" />
+183-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+184        <service
+184-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+185            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+185-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+186            android:enabled="true"
+186-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+187            android:exported="false"
+187-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+188            android:permission="android.permission.BIND_JOB_SERVICE" />
+188-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+189
+190        <receiver
+190-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+191            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+191-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+192            android:exported="true"
+192-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+193            android:permission="com.google.android.c2dm.permission.SEND" >
+193-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+194            <intent-filter>
+194-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+195                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+195-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+195-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+196            </intent-filter>
+197        </receiver>
+198
+199        <activity
+199-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+200            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+200-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+201            android:excludeFromRecents="true"
+201-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+202            android:exported="false"
+202-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+203-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+204        <!--
+205            Service handling Google Sign-In user revocation. For apps that do not integrate with
+206            Google Sign-In, this service will never be started.
+207        -->
+208        <service
+208-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+209            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+209-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+210            android:exported="true"
+210-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+211            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+211-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+212        <uses-library
+212-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+213            android:name="org.apache.http.legacy"
+213-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+214            android:required="false" />
+214-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\82653396968af777fdb1f59f7c3ba8c3\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+215
+216        <activity
+216-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+217            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+217-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+219-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+220
+221        <provider
+221-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1e501aa5ebad65702db8b6c05548d82a\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+222            android:name="com.google.firebase.provider.FirebaseInitProvider"
+222-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1e501aa5ebad65702db8b6c05548d82a\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+223            android:authorities="com.hackathon.shoppy.firebaseinitprovider"
+223-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1e501aa5ebad65702db8b6c05548d82a\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+224            android:exported="false"
+224-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1e501aa5ebad65702db8b6c05548d82a\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+225            android:initOrder="100" />
+225-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\1e501aa5ebad65702db8b6c05548d82a\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+226        <provider
+226-->[com.sendbird.sdk:sendbird-android-sdk:3.0.117] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\56c9b926e5bf7e1b16ccb1b6202c636d\sendbird-android-sdk-3.0.117\AndroidManifest.xml:14:9-18:39
+227            android:name="com.sendbird.android.SendBirdInitProvider"
+227-->[com.sendbird.sdk:sendbird-android-sdk:3.0.117] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\56c9b926e5bf7e1b16ccb1b6202c636d\sendbird-android-sdk-3.0.117\AndroidManifest.xml:15:13-69
+228            android:authorities="com.hackathon.shoppy.sendbirdinitprovider"
+228-->[com.sendbird.sdk:sendbird-android-sdk:3.0.117] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\56c9b926e5bf7e1b16ccb1b6202c636d\sendbird-android-sdk-3.0.117\AndroidManifest.xml:16:13-72
+229            android:exported="false"
+229-->[com.sendbird.sdk:sendbird-android-sdk:3.0.117] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\56c9b926e5bf7e1b16ccb1b6202c636d\sendbird-android-sdk-3.0.117\AndroidManifest.xml:17:13-37
+230            android:initOrder="100" />
+230-->[com.sendbird.sdk:sendbird-android-sdk:3.0.117] C:\Users\JAYDEEP\.gradle\caches\transforms-2\files-2.1\56c9b926e5bf7e1b16ccb1b6202c636d\sendbird-android-sdk-3.0.117\AndroidManifest.xml:18:13-36
+231    </application>
+232
+233</manifest>

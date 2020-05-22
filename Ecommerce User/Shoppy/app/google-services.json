@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "539028589775",
+    "firebase_url": "https://shoppy-7940d.firebaseio.com",
+    "project_id": "shoppy-7940d",
+    "storage_bucket": "shoppy-7940d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539028589775:android:318ae004941f6ea7ca3bba",
+        "android_client_info": {
+          "package_name": "com.hackathon.shoppy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539028589775-1ivp55b741uv6ri55amgshlf0quv2a2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackathon.shoppy",
+            "certificate_hash": "2b9e4eea07e4badb8bdf1c349d5e94710943f8c8"
+          }
+        },
+        {
+          "client_id": "539028589775-9fmvm3s6lpou6ql7gerrd95ceaplmb5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackathon.shoppy",
+            "certificate_hash": "22004dff56806581f429aeecf934dcdd0c723b39"
+          }
+        },
+        {
+          "client_id": "539028589775-p3gf6mo0dannmo2p4gl1lk4s12r9aov6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJAmjbjerQrU0DKXQSBjumEShBZEoCoKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539028589775-p3gf6mo0dannmo2p4gl1lk4s12r9aov6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539028589775:android:11c46455969449f7ca3bba",
+        "android_client_info": {
+          "package_name": "com.hackathon.shoppyadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539028589775-4us2v1ravrsjkfvc9tnc46mm8hvfio5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackathon.shoppyadmin",
+            "certificate_hash": "2b9e4eea07e4badb8bdf1c349d5e94710943f8c8"
+          }
+        },
+        {
+          "client_id": "539028589775-p3gf6mo0dannmo2p4gl1lk4s12r9aov6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJAmjbjerQrU0DKXQSBjumEShBZEoCoKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539028589775-p3gf6mo0dannmo2p4gl1lk4s12r9aov6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539028589775:android:6a9c271d180c4389ca3bba",
+        "android_client_info": {
+          "package_name": "com.techjd.shoppyadminfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539028589775-ag8pvuu4n746lp4eh9gg4dm8bk0mv8cc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techjd.shoppyadminfinal",
+            "certificate_hash": "22004dff56806581f429aeecf934dcdd0c723b39"
+          }
+        },
+        {
+          "client_id": "539028589775-p3gf6mo0dannmo2p4gl1lk4s12r9aov6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJAmjbjerQrU0DKXQSBjumEShBZEoCoKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539028589775-p3gf6mo0dannmo2p4gl1lk4s12r9aov6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539028589775:android:1f2e6a2ccc1a23adca3bba",
+        "android_client_info": {
+          "package_name": "com.techjd.shoppydriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539028589775-b7o7ngulqi840s57fv0fkr832imguh0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techjd.shoppydriver",
+            "certificate_hash": "22004dff56806581f429aeecf934dcdd0c723b39"
+          }
+        },
+        {
+          "client_id": "539028589775-p3gf6mo0dannmo2p4gl1lk4s12r9aov6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJAmjbjerQrU0DKXQSBjumEShBZEoCoKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539028589775-p3gf6mo0dannmo2p4gl1lk4s12r9aov6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

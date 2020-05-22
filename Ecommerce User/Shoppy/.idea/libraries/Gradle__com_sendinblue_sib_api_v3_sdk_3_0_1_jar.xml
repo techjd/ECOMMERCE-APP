@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sendinblue:sib-api-v3-sdk:3.0.1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sendinblue/sib-api-v3-sdk/3.0.1/acfb655bea5cc390dd9a7984ebbebfabc9e67da2/sib-api-v3-sdk-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sendinblue/sib-api-v3-sdk/3.0.1/7fb9e8bcc0f5be4ffdbc3c16c7c18e1fb799bfea/sib-api-v3-sdk-3.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sendinblue/sib-api-v3-sdk/3.0.1/622fc34ce7ba397ff5f822735413607091287de5/sib-api-v3-sdk-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

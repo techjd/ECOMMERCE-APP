@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kabouzeid:AndroidSlidingUpPanel:3.3.3-kmod@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c02620b82f8ca073d128b4d2aa08f9a5/jetified-AndroidSlidingUpPanel-3.3.3-kmod/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c02620b82f8ca073d128b4d2aa08f9a5/jetified-AndroidSlidingUpPanel-3.3.3-kmod/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kabouzeid/AndroidSlidingUpPanel/3.3.3-kmod/2283d1ef30a8e32e8cde2053a547b19ea25ca1dc/AndroidSlidingUpPanel-3.3.3-kmod-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

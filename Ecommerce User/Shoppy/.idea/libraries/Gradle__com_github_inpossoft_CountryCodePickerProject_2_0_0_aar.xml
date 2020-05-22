@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.inpossoft:CountryCodePickerProject:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3abc30fcf0aba1db79eb79b3395faa90/jetified-CountryCodePickerProject-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3abc30fcf0aba1db79eb79b3395faa90/jetified-CountryCodePickerProject-2.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.inpossoft/CountryCodePickerProject/2.0.0/74612624237572a59db317e0613b200075a3dd34/CountryCodePickerProject-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.inpossoft/CountryCodePickerProject/2.0.0/6c0d5cd331d6ce0dcb4248b09837b6317688574c/CountryCodePickerProject-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

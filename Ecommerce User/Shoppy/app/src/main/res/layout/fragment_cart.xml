@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context="com.hackathon.shoppy.fragments.CartFragment">
+
+    <RelativeLayout
+        android:id="@+id/rill"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/totalamt"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:text="Total Amount = "
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@drawable/background"
+        android:id="@+id/cartList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fancy:layout_constraintBottom_toTopOf="@+id/EditDetails"
+        fancy:layout_constraintEnd_toEndOf="parent"
+        fancy:layout_constraintStart_toStartOf="parent"
+        fancy:layout_constraintTop_toTopOf="parent"
+        android:layout_below="@+id/rill"
+        android:layout_above="@+id/checkout"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/checkout"
+
+        android:layout_marginBottom="10dp"
+        android:layout_width="280dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        fancy:fb_defaultColor="#7ab800"
+        fancy:fb_radius="10dp"
+        fancy:fb_text="Proceed To Checkout"
+        fancy:fb_textColor="#FFFFFF" />
+
+</RelativeLayout>

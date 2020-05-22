@@ -1,0 +1,158 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+    defaultConfig {
+        applicationId "com.hackathon.shoppy"
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude("META-INF/*.kotlin_module")
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    implementation 'com.razorpay:checkout:1.5.13'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.google.firebase:firebase-core:17.2.2'
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
+    implementation 'io.paperdb:paperdb:2.6'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'com.github.zjywill:OverwatchProgress:1.6'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.6'
+    implementation 'com.airbnb.android:lottie:3.3.1'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.libizo:customedittext:1.0.6'
+    implementation 'com.github.medyo:fancybuttons:1.9.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.6'
+    implementation 'androidx.core:core:1.1.0'
+    implementation 'androidx.legacy:legacy-support-core-utils:1.0.0'
+    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+    implementation 'androidx.media:media:1.1.0'
+    implementation 'androidx.fragment:fragment:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.palette:palette:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.percentlayout:percentlayout:1.0.0'
+    implementation 'androidx.preference:preference:1.1.0'
+    implementation 'androidx.legacy:legacy-preference-v14:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.github.kabouzeid:app-theme-helper:1.3.10'
+    implementation 'com.github.kabouzeid:RecyclerView-FastScroll:1.0.16-kmod'
+    implementation 'com.github.kabouzeid:SeekArc:1.2-kmod'
+    implementation 'com.github.kabouzeid:AndroidSlidingUpPanel:3.3.3-kmod'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.afollestad.material-dialogs:commons:0.9.6.0'
+    implementation 'com.afollestad:material-cab:0.1.12'
+    implementation 'com.github.ksoichiro:android-observablescrollview:1.6.0'
+    implementation 'com.heinrichreimersoftware:material-intro:1.6'
+    implementation 'me.zhanghai.android.materialprogressbar:library:1.4.2'
+    implementation('com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.11.0@aar') {
+        transitive = true
+    }
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+    implementation 'de.psdev.licensesdialog:licensesdialog:2.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'com.github.bumptech.glide:okhttp3-integration:1.5.0'
+    implementation 'org.eclipse.mylyn.github:org.eclipse.egit.github.core:2.1.5'
+    implementation 'com.github.AdrienPoupa:jaudiotagger:2.2.3'
+    implementation 'com.github.inpossoft:CountryCodePickerProject:2.0.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.firebaseui:firebase-ui-database:1.2.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.firebase:firebase-core:17.2.2'
+    implementation 'com.github.rehmanmuradali:ticker:1.0.0'
+    implementation 'com.github.mancj:MaterialSearchBar:0.8.2'
+    implementation 'androidx.navigation:navigation-runtime:2.2.1'
+    api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+    implementation 'com.sendbird.sdk:sendbird-android-sdk:3.0.117'
+    implementation 'com.github.medyo:fancybuttons:1.9.1'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    implementation 'com.sendinblue:sib-api-v3-sdk:3.0.1'
+    implementation 'com.sendgrid:sendgrid-java:4.4.4'
+    implementation 'com.sendgrid:java-http-client:4.3.1'
+    api 'org.apache.httpcomponents:httpcore:4.4.6'
+    api 'org.apache.httpcomponents:httpmime:4.3.6'
+    implementation files('libs/sendgrid-0.1.2-jar.jar')
+    implementation 'com.github.shrikanth7698:Custom-Navigation-Drawer:v0.0.1'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    implementation 'com.itextpdf:itextg:5.5.10'
+
+    // location play services
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
+
+    // dexter runtime permissions
+    implementation 'com.karumi:dexter:4.2.0'
+
+    // ButterKnife view binding
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'org.jetbrains:annotations:15.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".name">
+
+
+    <LinearLayout
+
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#6177FC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:layout_marginRight="95dp"
+            android:textSize="25dp"
+
+            />
+
+        <EditText
+            android:background="@drawable/border1"
+            android:outlineSpotShadowColor="#000000"
+            android:outlineAmbientShadowColor="#000000"
+            android:textColor="#000000"
+            android:layout_marginRight="22dp"
+            android:layout_gravity="center"
+            android:id="@+id/name"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            android:inputType="textPersonName"
+            android:layout_marginTop="25dp"
+            android:hint="Enter your Name Here"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#6177FC"
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address :"
+            android:textSize="25dp"
+            android:layout_marginRight="88dp"
+            />
+
+        <EditText
+            android:background="@drawable/border1"
+            android:outlineSpotShadowColor="#000000"
+            android:outlineAmbientShadowColor="#000000"
+            android:textColor="#000000"
+            android:layout_marginRight="22sp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/address"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+
+            android:hint="Enter your Shop Address "/>
+
+
+
+
+
+
+        <Button
+            android:background="#6177FC"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/save_info"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:layout_width="335dp"
+            android:layout_height="54dp"
+            android:text="Next" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Payment.PaymentActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/checkout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/scrollable"
+        android:layout_marginBottom="-400dp" />
+
+    <ScrollView
+        android:id="@+id/scrollable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp">
+
+        <RelativeLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:id="@+id/addr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shipping Address"
+                android:textSize="30sp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+
+                android:layout_marginTop="50dp"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/ship_addr"
+                android:hint="address"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/addr"/>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ship_addr">
+                <TextView
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:text="Rs. "
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/totalprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Total Price"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+
+            <Button
+                android:layout_marginTop="50dp"
+                android:id="@+id/pay"
+
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear"
+                android:layout_centerHorizontal="true"
+                android:text="Pay" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

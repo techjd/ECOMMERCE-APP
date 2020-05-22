@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Shoppy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="bottom_nav_1"><font fgcolor="#ffffff">Home</font></string>
+    <string name="bottom_nav_2"><font fgcolor="#ffffff">Search</font></string>
+    <string name="bottom_nav_3"><font fgcolor="#ffffff">Cart</font></string>
+</resources>

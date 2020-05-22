@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".verify_otp">
+
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/otp_progress_bar"
+        android:visibility="invisible"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/otp_screen_image" />
+
+            <TextView
+                android:textSize="19sp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/textView3"
+                android:layout_width="222dp"
+                android:layout_height="44dp"
+                android:text="We have sent you an OTP for confirmation" />
+
+            <EditText
+
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:background="@drawable/rectange_1"
+                android:layout_gravity="center"
+                android:hint="Enter the OTP"
+                android:id="@+id/otp_text_view"
+                android:layout_width="334dp"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:background="#6177FC"
+                android:layout_marginTop="23dp"
+                android:layout_gravity="center"
+                android:id="@+id/verify_button"
+                android:layout_width="335dp"
+                android:layout_height="44dp"
+                android:text="Verify OTP" />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:id="@+id/otp_form_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working . . ."
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

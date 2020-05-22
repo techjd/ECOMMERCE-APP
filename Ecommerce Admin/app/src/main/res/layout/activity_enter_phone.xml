@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".enter_phone">
+
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/login_progress_bar"
+        android:visibility="invisible"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/login_screen_image" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/textView2"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:textSize="22dp"
+                android:textColor="#6177FC"
+                android:fontFamily="sans-serif-black"
+                android:text="Verify Your Number" />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/textView"
+                android:layout_width="300dp"
+                android:layout_height="46dp"
+                android:text="Please enter your phone number below for verification" />
+
+            <LinearLayout
+                android:layout_marginTop="20sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:gravity="center"
+                    android:layout_marginStart="5sp"
+                    android:hint="+91"
+                    android:id="@+id/country_code_text"
+                    android:layout_width="64dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/rectange_1"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/phone_number_text"
+                    android:layout_width="257dp"
+                    android:layout_height="57dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/rectange_1"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-medium"
+                    android:hint="Your Phone Number"
+                    android:inputType="phone"
+                    android:padding="16dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <Button
+                android:background="#6177FC"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:id="@+id/generate_btn"
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:layout_width="335dp"
+                android:layout_height="54dp"
+                android:text="Generate OTP " />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:id="@+id/login_form_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working . . ."
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

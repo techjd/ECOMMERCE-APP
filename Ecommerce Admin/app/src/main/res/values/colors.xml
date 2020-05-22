@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8fd3f4</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <string name="bottom_nav_1"><font fgcolor="#ffffff">Add Products</font></string>
+    <string name="bottom_nav_2"><font fgcolor="#ffffff">My Products</font></string>
+    <string name="bottom_nav_3"><font fgcolor="#ffffff">Orders</font></string>
+    <string name="bottom_nav_4"><font fgcolor="#ffffff">Profile</font></string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="160dp"
+    android:background="@drawable/background"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/pimage"
+        android:layout_width="168dp"
+        android:layout_height="127dp"
+        app:srcCompat="@drawable/basket" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp">
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="Product Name"
+            android:textSize="25sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Product price"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pprice"
+            android:layout_marginTop="4dp" />
+        <TextView
+            android:text="Product Id"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pid"
+            android:visibility="invisible"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+</LinearLayout>
